@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Willkommen, Java Hipster!",
+    "subtitle": "Dies ist Ihre Hauptseite",
+    "logged": {
+      "message": "Sie sind als Benutzer \"{{username}}\" angemeldet."
+    },
+    "question": "Wenn Sie Fragen zu apppster haben:",
+    "link": {
+      "homepage": "apppster Hauptseite",
+      "stackoverflow": "apppster auf Stack Overflow",
+      "bugtracker": "apppster Fehlereinträge",
+      "chat": "apppster Chat",
+      "follow": "kontaktieren Sie uns mit @swissding auf Twitter"
+    },
+    "like": "Wenn Sie apppster mögen, vergessen Sie nicht uns einen Stern zu geben auf",
+    "github": "GitHub"
+  }
+}

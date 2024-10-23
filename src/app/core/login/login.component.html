@@ -1,0 +1,15 @@
+<div class="form-container sign-in-container">
+  <form [formGroup]="loginForm">
+    <sbb-form-field class="input-field">
+      <input sbbInput type="email" placeholder="Email" formControlName="username" />
+    </sbb-form-field>
+
+    <sbb-form-field class="input-field">
+      <input sbbInput type="password" placeholder="Password" formControlName="password" />
+    </sbb-form-field>
+
+    <sbb-checkbox formControlName="rememberMe">Remember me</sbb-checkbox>
+
+    <button type="button" sbb-button (click)="login()">Login</button>
+  </form>
+</div>

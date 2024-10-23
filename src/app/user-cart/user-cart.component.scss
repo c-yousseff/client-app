@@ -1,0 +1,16 @@
+$box_width : 250px;
+$box_height : 350px;
+$box_bRadius : 10px;
+$box_background : white;
+$box_shadow : 0px 0px 10px rgba(0,0,0,0.2);
+$text_color: black;
+$links_color: #626262;
+$bottom_box_bg : #F5F5F5;
+
+.container {
+  border: 1px solid #ccc;
+  width: 20vw;
+  display: grid;
+  place-items: center;
+  height: 40vh;
+}

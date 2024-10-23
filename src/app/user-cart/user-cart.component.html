@@ -1,0 +1,16 @@
+
+<div class="center">
+  @for (user of user(); track user.email) {
+    <div class="container">
+      <img src="{{user.imageUrl}}" alt="" />
+        <div class="top">
+          <h1>{{user.login}}</h1>
+          <p>{{user.firstName}}</p>
+            <p>{{user.lastName}}</p>
+        </div>
+        <div class="bottom">
+          <p class="job">{{user.authorities[0]}}</p>
+      </div>
+    </div>
+  }
+</div>

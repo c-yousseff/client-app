@@ -1,0 +1,9 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 3.5rem;
+}
